@@ -31,9 +31,6 @@
     "apps/*",
     "packages/*"
   ],
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  },
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"

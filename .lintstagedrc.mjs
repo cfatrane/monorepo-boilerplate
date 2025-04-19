@@ -1,3 +1,3 @@
 export default {
-  "*.{js,jsx,ts,tsx,json,md,yml,yaml}": "prettier --write",
+  "**/*": "prettier --write --ignore-unknown",
 };
