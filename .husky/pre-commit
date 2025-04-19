@@ -1,1 +1,1 @@
-echo "test"
+bunx lint-staged
