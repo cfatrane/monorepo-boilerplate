@@ -4,7 +4,8 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "clean": "turbo run clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore"
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore",
+    "prepare": "husky"
   },
   "devDependencies": {
     "husky": "^9.1.7",
