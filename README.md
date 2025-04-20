@@ -79,9 +79,5 @@ The monorepo is organized into two main categories: **apps** and **packages**.
 Run the following command at the root of the monorepo to install all dependencies:
 
 ```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+bun install
 ```
