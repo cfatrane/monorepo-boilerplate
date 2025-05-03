@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "exports": {
-    "./base-js": "./base.js",
-    "./next-js": "./next.js",
+    "./base.js": "./base.cjs",
+    "./next.js": "./next.cjs",
     "./react-internal": "./react-internal.js"
   },
   "devDependencies": {
