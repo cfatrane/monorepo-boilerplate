@@ -32,6 +32,6 @@ module.exports = {
   },
   rules: {
     "react/react-in-jsx-scope": "off",
-    // Tu peux ajouter d'autres overrides ici si besoin
+    // You can add other overrides here if needed
   },
 };
