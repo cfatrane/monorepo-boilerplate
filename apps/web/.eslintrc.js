@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["next/core-web-vitals", "next/typescript"],
+  extends: ["@repo/eslint-config/next.js"],
 };
