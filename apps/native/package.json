@@ -11,7 +11,7 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "expo lint",
-    "clean": "rm -rf .next node_modules"
+    "clean": "rm -rf node_modules .expo .expo-shared"
   },
   "dependencies": {
     "@repo/eslint-config": "*",
