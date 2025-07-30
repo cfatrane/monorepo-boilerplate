@@ -2,6 +2,7 @@
   "name": "native",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "expo start --web",
@@ -32,7 +33,7 @@
     "@babel/core": "^7.23.7",
     "@expo/webpack-config": "^19.0.0",
     "@types/react": "~19.0.10",
-    "eslint": "^8.57.1",
+    "eslint": "^9.32.0",
     "eslint-config-expo": "~9.2.0",
     "typescript": "~5.8.3"
   },
