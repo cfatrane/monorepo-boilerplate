@@ -15,22 +15,34 @@ updates:
     directory: "/apps/native"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "@repo/eslint-config"
+      - dependency-name: "@repo/ui"
 
   - package-ecosystem: "npm"
     directory: "/apps/web"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "@repo/db"
+      - dependency-name: "@repo/eslint-config"
+      - dependency-name: "@repo/typescript-config"
+      - dependency-name: "@repo/ui"
 
   # Packages
   - package-ecosystem: "npm"
     directory: "/packages/database"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "@repo/typescript-config"
 
   - package-ecosystem: "npm"
     directory: "/packages/eslint-config"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "@repo/typescript-config"
 
   - package-ecosystem: "npm"
     directory: "/packages/typescript-config"
@@ -41,3 +53,5 @@ updates:
     directory: "/packages/ui"
     schedule:
       interval: "weekly"
+    ignore:
+      - dependency-name: "@repo/typescript-config"
