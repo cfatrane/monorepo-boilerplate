@@ -14,7 +14,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/apps/native"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     ignore:
       - dependency-name: "@repo/eslint-config"
       - dependency-name: "@repo/ui"
@@ -22,7 +22,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/apps/web"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
     ignore:
       - dependency-name: "@repo/db"
       - dependency-name: "@repo/eslint-config"
