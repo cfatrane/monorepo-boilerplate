@@ -12,7 +12,7 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.32.0",
     "@next/eslint-plugin-next": "^15.4.4",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/typescript-config": "*",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.2",
     "eslint-plugin-only-warn": "^1.1.0",
