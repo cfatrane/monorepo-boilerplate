@@ -81,3 +81,7 @@ Run the following command at the root of the monorepo to install all dependencie
 ```bash
 bun install
 ```
+
+---
+
+Based on the [Turborepo Basic Example](https://github.com/vercel/turborepo/tree/main/examples/basic) combined to the [Turborepo React Native Example](https://github.com/vercel/turborepo/tree/main/examples/with-react-native-web)
