@@ -1,4 +1,4 @@
-import { config as baseConfig } from "./.prettierrc.js";
+import { config as baseConfig } from "./base.js";
 
 /**
  * @see https://prettier.io/docs/configuration
