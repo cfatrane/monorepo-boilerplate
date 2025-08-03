@@ -8,8 +8,9 @@ export const nextJsConfig = {
   ...baseConfig,
   importOrder: [
     "^react(.*)$",
-    "^react-native$",
-    "^react-native(.*)$",
+    "^next$",
+    "^next/(.*)$",
+    "^next-(.*)$",
     "<THIRD_PARTY_MODULES>",
     "^@/api/(.*)$",
     "^@/assets/(.*)$",
