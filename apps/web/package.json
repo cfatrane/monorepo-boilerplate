@@ -12,6 +12,7 @@
     "clean": "rm -rf .next node_modules"
   },
   "dependencies": {
+    "@repo/prettier-config": "*",
     "@repo/ui": "*",
     "next": "15.4.4",
     "react": "19.1.1",
