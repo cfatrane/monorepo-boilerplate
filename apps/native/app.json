@@ -1,4 +1,8 @@
 {
+  "name": "native",
+  "slug": "native",
+  "version": "1.0.0",
+  "orientation": "portrait",
   "expo": {
     "android": {
       "adaptiveIcon": {
@@ -12,9 +16,7 @@
     "ios": {
       "supportsTablet": true
     },
-    "name": "native",
     "newArchEnabled": true,
-    "orientation": "portrait",
     "plugins": [
       "expo-router",
       [
@@ -28,9 +30,7 @@
       ]
     ],
     "scheme": "com.turbo.example",
-    "slug": "native",
     "userInterfaceStyle": "automatic",
-    "version": "1.0.0",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
