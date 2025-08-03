@@ -14,8 +14,10 @@ export const config = {
   objectWrap: "preserve",
   bracketSameLine: false,
   arrowParens: "always",
+  endOfLine: "lf",
+  proseWrap: "preserve",
+
   plugins: ["@trivago/prettier-plugin-sort-imports"],
-  importOrder: ["^@core/(.*)$", "^[./]"],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
 };
