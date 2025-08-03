@@ -6,7 +6,7 @@ export const config = {
   tabWidth: 2,
   useTabs: false,
   semi: true,
-  singleQuote: true,
+  singleQuote: false,
   quoteProps: "as-needed",
   jsxSingleQuote: false,
   trailingComma: "es5",
