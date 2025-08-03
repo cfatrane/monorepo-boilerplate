@@ -1,4 +1,4 @@
 import { nextJsConfig } from "@repo/prettier-config/next-js";
 
-/** @type {import("prettier").Linter.Config} */
+/** @type {import("prettier").Config} */
 export default nextJsConfig;
