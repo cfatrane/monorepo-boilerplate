@@ -1,4 +1,4 @@
 import { reactNativeConfig } from '@repo/prettier-config/react-native';
 
-/** @type {import("prettier").Linter.Config} */
+/** @type {import("prettier").Config} */
 export default reactNativeConfig;
