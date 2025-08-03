@@ -1,7 +1,8 @@
 import { StyleSheet, Text, View } from "react-native";
 
-import { Button } from "@repo/ui";
 import { StatusBar } from "expo-status-bar";
+
+import { Button } from "@repo/ui";
 
 export default function Native() {
   return (

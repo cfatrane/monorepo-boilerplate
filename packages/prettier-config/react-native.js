@@ -10,6 +10,7 @@ export const reactNativeConfig = {
     "^react(.*)$",
     "^react-native$",
     "^react-native(.*)$",
+    "^expo(.*)$",
     "<THIRD_PARTY_MODULES>",
     "^@/api/(.*)$",
     "^@/assets/(.*)$",

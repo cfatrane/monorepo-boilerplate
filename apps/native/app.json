@@ -3,33 +3,40 @@
     "name": "native",
     "slug": "native",
     "version": "1.0.0",
-    "scheme": "com.turbo.example",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.turbo.example"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.turbo.example"
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "scheme": "com.turbo.example",
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
-    },
-    "plugins": ["expo-router"]
+    }
   }
 }
