@@ -10,13 +10,16 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "expo lint",
-    "clean": "rm -rf node_modules"
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
+    "clean": "rm -rf node_modules "
   },
   "dependencies": {
     "@react-navigation/bottom-tabs": "^7.4.5",
     "@react-navigation/elements": "^2.6.2",
     "@react-navigation/native": "^7.1.17",
     "@repo/eslint-config": "*",
+    "@repo/prettier-config": "*",
     "@repo/ui": "*",
     "expo": "^53.0.18",
     "expo-constants": "~17.1.7",

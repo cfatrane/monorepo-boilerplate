@@ -9,7 +9,6 @@
       "package": "com.turbo.example"
     },
     "assetBundlePatterns": ["**/*"],
-    "icon": "./assets/images/icon.png",
     "ios": {
       "supportsTablet": true
     },
@@ -36,9 +35,8 @@
       "fallbackToCacheTimeout": 0
     },
     "web": {
-      "bundler": "metro",
-      "favicon": "./assets/images/favicon.png",
-      "output": "static"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
