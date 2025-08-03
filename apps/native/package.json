@@ -10,6 +10,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "lint": "expo lint",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore .",
     "clean": "rm -rf node_modules .expo .expo-shared"
   },
   "dependencies": {
