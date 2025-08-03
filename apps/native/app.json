@@ -1,9 +1,9 @@
 {
-  "name": "native",
-  "slug": "native",
-  "version": "1.0.0",
-  "orientation": "portrait",
   "expo": {
+    "name": "native",
+    "slug": "native",
+    "version": "1.0.0",
+    "orientation": "portrait",
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff",
