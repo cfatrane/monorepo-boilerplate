@@ -22,7 +22,7 @@
     "@repo/typescript-config": "*",
     "eslint": "^9.32.0",
     "prisma": "^6.13.0",
-    "rimraf": "^5.0.5",
+    "rimraf": "^6.0.1",
     "tsup": "^8.0.2",
     "tsx": "4.19.1",
     "typescript": "5.8.3"
