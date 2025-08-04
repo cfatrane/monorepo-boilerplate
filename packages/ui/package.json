@@ -12,7 +12,7 @@
     "@repo/typescript-config": "*",
     "@types/react": "^19.1.9",
     "tsup": "^8.0.1",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   },
   "dependencies": {
     "react": "^19.1.1",
