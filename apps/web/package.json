@@ -16,7 +16,7 @@
   "dependencies": {
     "@repo/prettier-config": "*",
     "@repo/ui": "*",
-    "next": "15.4.4",
+    "next": "15.5.0",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "react-native-web": "^0.21.0"
