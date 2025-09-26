@@ -9,7 +9,7 @@ export const config = {
   singleQuote: false,
   quoteProps: "as-needed",
   jsxSingleQuote: false,
-  trailingComma: "es5",
+  trailingComma: "all",
   bracketSpacing: true,
   objectWrap: "preserve",
   bracketSameLine: false,
