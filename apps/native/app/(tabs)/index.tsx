@@ -2,6 +2,8 @@ import { Platform, StyleSheet } from "react-native";
 
 import { Image } from "expo-image";
 
+import { Button } from "@repo/ui";
+
 import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
@@ -57,6 +59,13 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+      <Button
+        onClick={() => {
+          console.log("Pressed!");
+          alert("Pressed!");
+        }}
+        text="Boop"
+      />
     </ParallaxScrollView>
   );
 }
