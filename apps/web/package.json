@@ -27,7 +27,7 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "^20.10.6",
-    "@types/react": "19.1.9",
+    "@types/react": "19.1.16",
     "@types/react-dom": "19.1.7",
     "babel-plugin-react-native-web": "^0.21.0",
     "eslint": "^9.32.0",
