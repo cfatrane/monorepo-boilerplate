@@ -11,7 +11,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.32.0",
-    "@next/eslint-plugin-next": "^15.4.4",
+    "@next/eslint-plugin-next": "^16.0.0",
     "@repo/typescript-config": "*",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.2",
