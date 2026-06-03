@@ -1,6 +1,6 @@
-import baseConfig from '../../.lintstagedrc.mjs';
+import baseConfig from "../../.lintstagedrc.mjs";
 
 export default {
-  '*.{js,jsx,ts,tsx}': 'next lint --fix .',
+  "*.{js,jsx,ts,tsx}": () => "bun run lint",
   ...baseConfig,
 };

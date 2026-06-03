@@ -1,3 +1,5 @@
+import sortImports from "@trivago/prettier-plugin-sort-imports";
+
 /**
  * @see https://prettier.io/docs/configuration
  * @type {import("prettier").Config}
@@ -17,7 +19,7 @@ export const config = {
   endOfLine: "lf",
   proseWrap: "preserve",
 
-  plugins: ["@trivago/prettier-plugin-sort-imports"],
+  plugins: [sortImports],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
 };
