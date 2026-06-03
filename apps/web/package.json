@@ -31,7 +31,7 @@
     "@types/react-dom": "~19.2.0",
     "babel-plugin-react-native-web": "^0.21.0",
     "eslint": "^9.32.0",
-    "typescript": "5.9.2"
+    "typescript": "6.0.3"
   },
   "overrides": {
     "@types/react": "~19.2.10",
