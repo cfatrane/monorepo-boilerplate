@@ -14,28 +14,27 @@
     "clean": "rm -rf .next node_modules"
   },
   "dependencies": {
-    "@repo/prettier-config": "*",
     "@repo/ui": "*",
     "next": "16.2.6",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "react-native-web": "^0.21.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@repo/db": "*",
     "@repo/eslint-config": "*",
+    "@repo/prettier-config": "*",
     "@repo/typescript-config": "*",
-    "@types/minimatch": "^6.0.0",
     "@types/node": "^20.10.6",
-    "@types/react": "19.1.9",
-    "@types/react-dom": "19.1.7",
+    "@types/react": "~19.2.10",
+    "@types/react-dom": "~19.2.0",
     "babel-plugin-react-native-web": "^0.21.0",
     "eslint": "^9.32.0",
-    "typescript": "5.8.3"
+    "typescript": "5.9.2"
   },
   "overrides": {
-    "@types/react": "19.1.9",
-    "@types/react-dom": "19.1.7"
+    "@types/react": "~19.2.10",
+    "@types/react-dom": "~19.2.0"
   }
 }
