@@ -87,11 +87,12 @@
       "dependencies": {
         "@prisma/adapter-pg": "^7.8.0",
         "@prisma/client": "^7.8.0",
-        "pg": "8.21.0",
+        "pg": "^8.20.0",
       },
       "devDependencies": {
         "@repo/eslint-config": "*",
         "@repo/typescript-config": "*",
+        "@types/pg": "^8.20.0",
         "dotenv": "^17.4.2",
         "eslint": "^9.32.0",
         "prisma": "^7.8.0",
