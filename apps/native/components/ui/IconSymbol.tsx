@@ -2,15 +2,9 @@
 import { ComponentProps } from "react";
 import { OpaqueColorValue, type StyleProp, type TextStyle } from "react-native";
 
-import { SymbolViewProps, SymbolWeight } from "expo-symbols";
+import type { SFSymbol, SymbolWeight } from "expo-symbols";
 
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-
-type IconMapping = Record<
-  SymbolViewProps["name"],
-  ComponentProps<typeof MaterialIcons>["name"]
->;
-type IconSymbolName = keyof typeof MAPPING;
 
 /**
  * Add your SF Symbols to Material Icons mappings here.
@@ -22,7 +16,11 @@ const MAPPING = {
   "paperplane.fill": "send",
   "chevron.left.forwardslash.chevron.right": "code",
   "chevron.right": "chevron-right",
-} as IconMapping;
+} as const satisfies Partial<
+  Record<SFSymbol, ComponentProps<typeof MaterialIcons>["name"]>
+>;
+
+type IconSymbolName = keyof typeof MAPPING;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.

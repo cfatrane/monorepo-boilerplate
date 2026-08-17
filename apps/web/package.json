@@ -16,8 +16,8 @@
   "dependencies": {
     "@repo/ui": "*",
     "next": "16.2.11",
-    "react": "19.2.0",
-    "react-dom": "19.2.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
     "react-native-web": "^0.21.0"
   },
   "devDependencies": {
