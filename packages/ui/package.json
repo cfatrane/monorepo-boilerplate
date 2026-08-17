@@ -10,12 +10,12 @@
   },
   "devDependencies": {
     "@repo/typescript-config": "*",
-    "@types/react": "~19.2.10",
+    "@types/react": "~19.2.18",
     "tsup": "^8.0.1",
     "typescript": "5.9.2"
   },
   "dependencies": {
-    "react": "19.2.0",
+    "react": "19.2.8",
     "react-native": "0.83.6"
   }
 }

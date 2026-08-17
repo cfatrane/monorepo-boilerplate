@@ -40,7 +40,7 @@
         "expo-symbols": "~55.0.9",
         "expo-system-ui": "~55.0.9",
         "expo-web-browser": "~55.0.16",
-        "react": "19.2.0",
+        "react": "19.2.8",
         "react-dom": "19.2.0",
         "react-native": "0.83.6",
         "react-native-reanimated": "4.2.1",
@@ -52,7 +52,7 @@
       "devDependencies": {
         "@repo/eslint-config": "*",
         "@repo/prettier-config": "*",
-        "@types/react": "~19.2.10",
+        "@types/react": "~19.2.18",
         "eslint": "^9.32.0",
         "typescript": "5.9.2",
       },
@@ -63,7 +63,7 @@
       "dependencies": {
         "@repo/ui": "*",
         "next": "16.2.11",
-        "react": "19.2.0",
+        "react": "19.2.8",
         "react-dom": "19.2.0",
         "react-native-web": "^0.21.0",
       },
@@ -74,7 +74,7 @@
         "@repo/prettier-config": "*",
         "@repo/typescript-config": "*",
         "@types/node": "^20.10.6",
-        "@types/react": "~19.2.10",
+        "@types/react": "~19.2.18",
         "@types/react-dom": "~19.2.0",
         "babel-plugin-react-native-web": "^0.21.0",
         "eslint": "^9.32.0",
@@ -137,12 +137,12 @@
       "name": "@repo/ui",
       "version": "0.0.0",
       "dependencies": {
-        "react": "19.2.0",
+        "react": "19.2.8",
         "react-native": "0.83.6",
       },
       "devDependencies": {
         "@repo/typescript-config": "*",
-        "@types/react": "~19.2.10",
+        "@types/react": "~19.2.18",
         "tsup": "^8.0.1",
         "typescript": "5.9.2",
       },
@@ -861,7 +861,7 @@
 
     "@types/pg": ["@types/pg@8.20.0", "", { "dependencies": { "@types/node": "*", "pg-protocol": "*", "pg-types": "^2.2.0" } }, "sha512-bEPFOaMAHTEP1EzpvHTbmwR8UsFyHSKsRisLIHVMXnpNefSbGA1bD6CVy+qKjGSqmZqNqBDV2azOBo8TgkcVow=="],
 
-    "@types/react": ["@types/react@19.2.16", "", { "dependencies": { "csstype": "^3.2.2" } }, "sha512-esJiCAnl0kfpNdE69f3So4WJUXy95dLZydX0KwK46riIHDzHM7O9Vtf9xCHW0PXIqvgqNrswl522kA/5yx+F4w=="],
+    "@types/react": ["@types/react@19.2.18", "", { "dependencies": { "csstype": "^3.2.2" } }, "sha512-AnzbBERsrLKtk2XSfTbYRLjQPdy116Sty4q+T+Bp3IC4l6jNBvreVPAHmpq9qhXQM7CXZPjLVmGMw9sy+hxQ3w=="],
 
     "@types/react-dom": ["@types/react-dom@19.2.3", "", { "peerDependencies": { "@types/react": "^19.2.0" } }, "sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ=="],
 
@@ -1967,7 +1967,7 @@
 
     "rc9": ["rc9@3.0.1", "", { "dependencies": { "defu": "^6.1.6", "destr": "^2.0.5" } }, "sha512-gMDyleLWVE+i6Sgtc0QbbY6pEKqYs97NGi6isHQPqYlLemPoO8dxQ3uGi0f4NiP98c+jMW6cG1Kx9dDwfvqARQ=="],
 
-    "react": ["react@19.2.0", "", {}, "sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ=="],
+    "react": ["react@19.2.8", "", {}, "sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw=="],
 
     "react-devtools-core": ["react-devtools-core@6.1.5", "", { "dependencies": { "shell-quote": "^1.6.1", "ws": "^7" } }, "sha512-ePrwPfxAnB+7hgnEr8vpKxL9cmnp7F322t8oqcPshbIQQhDKgFDW4tjhF2wjVbdXF9O/nyuy3sQWd9JGpiLPvA=="],
 

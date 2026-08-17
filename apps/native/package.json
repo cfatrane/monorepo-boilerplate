@@ -32,7 +32,7 @@
     "expo-symbols": "~55.0.9",
     "expo-system-ui": "~55.0.9",
     "expo-web-browser": "~55.0.16",
-    "react": "19.2.0",
+    "react": "19.2.8",
     "react-dom": "19.2.0",
     "react-native": "0.83.6",
     "react-native-reanimated": "4.2.1",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/prettier-config": "*",
-    "@types/react": "~19.2.10",
+    "@types/react": "~19.2.18",
     "eslint": "^9.32.0",
     "typescript": "5.9.2"
   },
