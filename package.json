@@ -31,7 +31,7 @@
     "node": ">=18"
   },
   "name": "with-react-native-web",
-  "packageManager": "bun@1.1.3.4",
+  "packageManager": "bun@1.3.14",
   "workspaces": [
     "apps/*",
     "packages/*"

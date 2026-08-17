@@ -1,57 +1,11 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "bun"
+    directory: "/"
     schedule:
       interval: "weekly"
-
-  # Apps
-  - package-ecosystem: "npm"
-    directory: "/apps/native"
-    schedule:
-      interval: "monthly"
-    ignore:
-      - dependency-name: "@repo/eslint-config"
-      - dependency-name: "@repo/ui"
-
-  - package-ecosystem: "npm"
-    directory: "/apps/web"
-    schedule:
-      interval: "monthly"
-    ignore:
-      - dependency-name: "@repo/db"
-      - dependency-name: "@repo/eslint-config"
-      - dependency-name: "@repo/typescript-config"
-      - dependency-name: "@repo/ui"
-
-  # Packages
-  - package-ecosystem: "npm"
-    directory: "/packages/database"
-    schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "@repo/typescript-config"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/eslint-config"
-    schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "@repo/typescript-config"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/typescript-config"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "npm"
-    directory: "/packages/ui"
-    schedule:
-      interval: "weekly"
-    ignore:
-      - dependency-name: "@repo/typescript-config"
+    groups:
+      security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
