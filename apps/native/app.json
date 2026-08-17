@@ -9,14 +9,12 @@
         "backgroundColor": "#ffffff",
         "foregroundImage": "./assets/images/adaptive-icon.png"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.turbo.example"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
-    "newArchEnabled": true,
     "plugins": [
       "expo-router",
       [
@@ -27,7 +25,10 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-image",
+      "expo-web-browser",
+      "expo-font"
     ],
     "scheme": "com.turbo.example",
     "userInterfaceStyle": "automatic",
