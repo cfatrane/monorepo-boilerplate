@@ -28,7 +28,8 @@
       ],
       "expo-image",
       "expo-web-browser",
-      "expo-font"
+      "expo-font",
+      "expo-status-bar"
     ],
     "scheme": "com.turbo.example",
     "userInterfaceStyle": "automatic",
